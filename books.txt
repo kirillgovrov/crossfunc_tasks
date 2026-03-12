@@ -1,0 +1,15 @@
+Title= Harry Potter
+Author= J. Rowling
+Year= 1997
+Price= 50$
+
+Title= The Lord of the Rings
+Author= Tolkien
+Year= 1937
+Price= 70$
+
+Title= 1984
+Author= Orwell
+Year= 1949
+Price= 30$
+

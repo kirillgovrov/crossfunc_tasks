@@ -1,20 +1,20 @@
 function toCelsius(Fahrenheit) {
-    res1 = (5/9) * (Fahrenheit - 32);
+    let res1 = (5/9) * (Fahrenheit - 32);
     console.log(`${Fah} degrees Fahrenheit is ${Math.round(res1)} degrees Celsius.`)
 }
 
 function toFahrenheit(Celsius) {
-    res2 =  (Celsius * 9/5 + 32);
+    let res2 =  (Celsius * 9/5 + 32);
     console.log(`${Cel} degrees Celsius is ${Math.round(res2)} degrees Fahrenheit.`)
 }
 
 function toMiles(Kilometers) {
-    res3 = (Kilometers * 0.621371);
+    let res3 = (Kilometers * 0.621371);
     console.log(`${Kilo} kilometers is ${Math.round(res3)} miles.`)
 }
 
 function toKilometers(Miles) {
-    res4 = (Miles / 0.621371);
+    let res4 = (Miles / 0.621371);
     console.log(`${Mil} miles is ${Math.round(res4)} kilometers.`)
 }
 

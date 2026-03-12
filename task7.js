@@ -28,10 +28,10 @@ function loadBooks() {
     for (let value of blocks) {
       const lines = value.split("\n");
   
-      const title = lines[0].split("=")[1];
-      const author = lines[1].split("=")[1];
-      const year = parseInt(lines[2].split("=")[1]);
-      const price = lines[3].split("=")[1];
+      const title = lines[0].split("=")[1].trim();
+      const author = lines[1].split("=")[1].trim();
+      const year = parseInt(lines[2].split("=")[1].trim());
+      const price = lines[3].split("=")[1].trim();
       
       const book = new Book(title, author, year, price);
       
